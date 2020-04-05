@@ -10,12 +10,12 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.canvia.smartview</groupId>
-    <artifactId>smartview-core</artifactId>
+    <groupId>com.upc.edu.faraway</groupId>
+    <artifactId>faraway-core</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
-    <name>smartview-core</name>
-    <description>Componente core de negocio de Smart View</description>
+    <name>faraway-core</name>
+    <description>Componente core de negocio de faraway</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,12 +64,12 @@
             <version>${jwt.version}</version>
         </dependency>
 
-        <!-- Utilitario BPO -->
-        <dependency>
-            <groupId>pe.com.gmd.bpo.util</groupId>
-            <artifactId>bpo-util</artifactId>
-            <version>${bpo.util.version}</version>
-        </dependency>
+<!--        &lt;!&ndash; Utilitario BPO &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>pe.com.gmd.bpo.util</groupId>-->
+<!--            <artifactId>bpo-util</artifactId>-->
+<!--            <version>${bpo.util.version}</version>-->
+<!--        </dependency>-->
 
         <!-- Oracle Driver -->
         <dependency>
